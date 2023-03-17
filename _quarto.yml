@@ -1,5 +1,9 @@
 project:
   type: website
+  output-dir: docs
+  
+execute: 
+  freeze: true
 
 website:
   title: "Kitty Zhang"
@@ -9,6 +13,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - file: "./achievement.qmd"
+        text: Achievements
       
     right: 
       - icon: linkedin
